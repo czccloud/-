@@ -1,5 +1,6 @@
 数据库课设——简单的实现航班订票管理系统
-step1
+
+# the first step
 
    创建数据库，3306端口，host=local，用户名密码自己记住后面有用\n
    
@@ -82,7 +83,7 @@ CREATE TABLE order_items (
 
    
 
-step2
+# the second step
    
    打开1.py
    
@@ -90,4 +91,26 @@ step2
    
    如果有没安装的包，根据系统提示自行pip安装，注意安装对应版本
 
-   需要注意的是，以下代码的内容都要改成自己的内容
+   需要注意的是，1.py中以下代码的内容都要改成自己的内容
+
+   # 数据库连接配置
+
+host = "localhost"
+
+user = "root"
+
+password = "839661164"（本人qq号）
+
+dbname = "test"
+
+app = Flask(__name__)
+
+CORS(app
+
+# the third step
+
+运行3.html，你会得到自己的管理系统
+
+ps：
+
+123.jpg用来更换网页背景，要跟html文件放在同一文件夹下，并且在html文件中做出相应的修改
