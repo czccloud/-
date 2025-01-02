@@ -1,6 +1,6 @@
 数据库课设——简单的实现航班订票管理系统
 step1
-   创建数据库，3306端口，host=local，用户名密码自己记住后面有用
+   创建数据库，3306端口，host=local，用户名密码自己记住后面有用\n
    CREATE TABLE users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL UNIQUE,
