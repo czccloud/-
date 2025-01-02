@@ -6,7 +6,7 @@ from flask_cors import CORS
 # 数据库连接配置
 host = "localhost"
 user = "root"
-password = "fg839661164"
+password = "839661164"
 dbname = "test"
 
 app = Flask(__name__)
